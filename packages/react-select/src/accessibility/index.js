@@ -21,7 +21,7 @@ export const instructionsAriaMessage = (
     case 'input':
       return `${label ? label : 'Select'} is focused ${
         isSearchable ? ',type to refine list' : ''
-        }, press Down to open the menu, ${
+        }, ${
         isMulti ? ' press left to focus selected values' : ''
         }`;
     case 'value':
