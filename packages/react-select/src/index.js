@@ -1,6 +1,8 @@
 // @flow
 import { type ElementConfig } from 'react';
 
+console.log('Brendan is the best!')
+
 import SelectBase from './Select';
 import manageState from './stateManager';
 
