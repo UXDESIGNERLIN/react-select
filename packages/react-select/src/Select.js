@@ -360,6 +360,7 @@ export default class Select extends Component<Props, State> {
 
   constructor(props: Props) {
     super(props);
+    console.log('This is the Select library!')
     const { value } = props;
     this.cacheComponents = memoizeOne(this.cacheComponents, isEqual).bind(this);
     this.cacheComponents(props.components);
