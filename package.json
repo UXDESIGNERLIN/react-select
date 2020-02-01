@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://github.com/UXDESIGNERLIN/react-select.git"
   },
+  "main": "./packages/react-select/dist/react-select.cjs.js",
   "dependencies": {
     "@atlaskit/button": "^7.0.2",
     "@atlaskit/icon": "^11.0.1",
@@ -100,7 +101,8 @@
     "postinstall": "preconstruct dev && bolt-check",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "yarn build && changeset publish"
+    "release": "yarn build && changeset publish",
+    "install": "yarn build"
   },
   "files": [
     "dist",
